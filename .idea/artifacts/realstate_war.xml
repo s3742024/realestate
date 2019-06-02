@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="realstate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>realstate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="realstate.war">
+      <element id="artifact" artifact-name="realstate:war exploded" />
+    </root>
+  </artifact>
+</component>
