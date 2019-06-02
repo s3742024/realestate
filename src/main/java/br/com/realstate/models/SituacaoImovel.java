@@ -17,6 +17,12 @@ public class SituacaoImovel implements BaseEntity{
 	@OneToMany(mappedBy="status")
 	private List<Imovel> imoveis;
 
+	public SituacaoImovel() {}
+
+	public SituacaoImovel(String descricao) {
+		this.descricao = descricao;
+	}
+
 	public int getId() {
 		return id;
 	}
